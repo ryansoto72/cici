@@ -1,0 +1,28 @@
+algoritmo "mds_pedro"
+// Função :
+// Autor :  omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   kl_cat, g1, g2, gatos, dia5, x: real
+   
+inicio
+// Seção de Comandos 
+escreva ("Digite o peso do saco de racao (kg): ")
+leia (kl_cat)
+escreva ("Digite quantidade que o gato 1 comeu (gramas): ")
+leia (g1)
+escreva ("Digite quantidade que o gato 2 comeu (gramas): ")
+leia (g2)
+
+     gatos <- g1 + g2
+     dia5 <- 5*(gatos/1000)
+     x <- kl_cat - dia5
+
+
+se dia5 >= 0 entao
+     escreva ("Restarão ", x, " quilos de ração no saco após cinco dias")
+senao
+      escreva ("Não haverá ração suficiente para alimentar os gatos por cinco dias." )
+fimse
+fimalgoritmo

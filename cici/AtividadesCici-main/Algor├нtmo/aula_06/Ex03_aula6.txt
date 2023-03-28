@@ -1,0 +1,33 @@
+algoritmo "eleitor"
+// Função :
+// Autor :    omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   
+   num:inteiro
+   
+inicio
+
+   escreva ("digite sua idade: ")
+   leia (num)
+   
+    se (num < 16) entao
+        escreva ("Nao Eleitor")
+        senao
+        
+        se (num >= 18) e (num <= 65) entao
+            escreva ("Eleitor Obrigatorio")
+            senao
+                
+            se (num >= 16) e (num < 18) ou (num > 65) entao
+                escreva ("Eleitor Facultativo")
+                senao
+                
+                escreva ("como c fez isso dar outro???")
+            fimse
+        fimse
+    fimse
+
+
+fimalgoritmo

@@ -1,0 +1,25 @@
+algoritmo "Calcular engordamento e emagrecimento"
+// Função :
+// Autor :      omar
+// Data : 03/03/2023
+// Seção de Declarações 
+var
+   peso, ema, eng: real
+inicio
+// Seção de Comandos 
+
+   escreva("digite quantos kilo c tem: ")
+   
+   
+   leia(peso)
+//a
+   eng <- peso +(peso * 0.15)
+//b
+   ema <- peso -(peso * 0.20)
+
+escreva("se a pessoa engordar 15%:", eng," kilos.")
+escreval("")
+escreva("se a pessoa emagrecer 20%:", ema," kilos.")
+
+
+fimalgoritmo

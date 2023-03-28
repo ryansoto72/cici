@@ -1,0 +1,54 @@
+algoritmo "varis acoes"
+// Função :
+// Autor :     omar
+// Data : 06/03/2023
+// Seção de Declarações 
+var
+   opcao: inteiro
+   num1, num2, res:real
+inicio
+// Seção de Comandos
+    escreval("Menu de opções:")
+    escreval("1- Somar dois números.")
+    escreval("2- Multiplicar dois números.")
+    escreval("3- Subtrair dois números.")
+    escreval("4- Dividir dois números.")
+    escreva ("Opcao: ")
+    leia (opcao)
+    
+    escreva("Digite o primeiro numero: ")
+    leia (num1)
+    escreva("Digite o segundo numero: ")
+    leia (num2)
+    
+    se (opcao >= 1) e (opcao <=4) entao
+    print("numero invalido")
+    se (opcao = 1) entao
+       res <- num1 + num2
+       escreva ("O resultado da soma é: ", res)
+
+       senao
+       se (opcao = 2) entao
+             res <- num1 * num2
+             escreva ("O resultado da multiplicacao é: ", res)
+
+             senao
+             se (opcao = 3) entao
+                   res <- num1 - num2
+                   escreva ("O resultado da subtracao é: ", res)
+
+                           senao
+                           se (opcao = 4) entao
+                                 res <- num1 / num2
+                                     escreva ("O resultado da divisao é: ", res)
+
+                                     senao
+                                     escreva ("opcao invalida")
+                                     fimse
+                           fimse
+            fimse
+       fimse
+    fimse
+
+
+fimalgoritmo

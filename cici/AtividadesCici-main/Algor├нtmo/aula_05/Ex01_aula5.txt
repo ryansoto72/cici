@@ -1,0 +1,16 @@
+algoritmo "Calc_func_x"
+// Função :
+// Autor :    omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   x,y:real
+inicio
+// Seção de Comandos 
+   Escreva("Digite o valor de 'x': ")
+   Leia (x)
+   
+   y <- 3*(x)+2
+   
+   Escreva("ta ai o resultado de 'y': ", y)
+fimalgoritmo

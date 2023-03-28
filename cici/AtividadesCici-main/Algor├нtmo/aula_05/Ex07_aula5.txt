@@ -1,0 +1,20 @@
+Algoritmo "Conversão de segundos para minutos e segundos"
+// Este programa converte segundos em minutos e segundos
+
+Var
+   segundos: inteiro
+   minutos, segundos_restantes: real
+
+Inicio
+// Recebe a entrada de segundos
+   escreva("Digite o número de segundos: ")
+   leia(segundos)
+
+// Calcula os minutos e segundos
+   minutos <- segundos / 60
+   segundos_restantes <- segundos % 60
+
+// Exibe o resultado
+   escreva(minutos:9:0, " minutos e ", segundos_restantes, " segundos")
+   
+FimAlgoritmo

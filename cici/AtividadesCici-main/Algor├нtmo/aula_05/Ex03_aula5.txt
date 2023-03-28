@@ -1,0 +1,21 @@
+algoritmo "media_combustivel"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   km, li, kml:real
+   
+inicio
+// Seção de Comandos
+   escreva("Distancia total percorrida em kilometros: ")
+   leia (km)
+   
+   escreva("Quantidade (em litros) de combustivel consumido durante a viagem: ")
+   leia (li)
+   
+   kml <- km/li
+   
+   escreva ("O consumo medio de combustivel durante a viagem foi de: ", kml," km/l.")
+   
+fimalgoritmo

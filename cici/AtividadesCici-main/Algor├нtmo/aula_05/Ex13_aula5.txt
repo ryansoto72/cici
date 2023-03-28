@@ -1,0 +1,17 @@
+algoritmo "Minimo de venda para passarcusto"
+// Função :
+// Autor :      omar
+// Data : 03/03/2023
+// Seção de Declarações 
+var
+   prec_esp, ing, min_ven: real
+inicio
+// Seção de Comandos 
+leia (prec_esp)
+leia (ing)
+
+min_ven <- prec_esp / ing
+
+escreva("tem que vender no minimo:", min_ven , " ingressos para pagar o custo do espetaculo.")
+
+fimalgoritmo

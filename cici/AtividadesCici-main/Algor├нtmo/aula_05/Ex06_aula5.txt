@@ -1,0 +1,24 @@
+algoritmo "calc_idade"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   atual, nascimento, mil23, idade:real
+   
+inicio
+// Seção de Comandos
+
+   escreva ("Digite o ano do seu nascimento: ")
+   leia (nascimento)
+   escreva ("Digite o ano atual: ")
+   leia (atual)
+   
+   idade <- atual - nascimento
+   mil23 <- 2030 - nascimento
+   
+   escreva(" Sua idade é: ", idade )
+   escreval("")
+   escreva(" Terá ", mil23, " anos em 2030")
+
+fimalgoritmo

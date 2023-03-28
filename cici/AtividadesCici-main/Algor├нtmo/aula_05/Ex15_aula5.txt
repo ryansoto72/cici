@@ -1,0 +1,24 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 03/03/2023
+// Seção de Declarações 
+var
+   multa, sal, conta1, conta2, resto_sal: real
+inicio
+// Seção de Comandos 
+
+     leia (sal)
+     leia(conta1)
+     leia(conta2)
+     
+     multa <- 0.02
+     
+     resto_sal <- sal - ((conta1 * multa) + (conta2 * multa))
+     
+     escreval ("restará do salário do João:", resto_sal, " reais.")
+     
+     
+
+
+fimalgoritmo

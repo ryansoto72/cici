@@ -1,0 +1,23 @@
+algoritmo "salario_aumento"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   salario, aumentop, novosal, x:real
+   
+inicio
+// Seção de Comandos
+   escreva("Digite o salario do funcionario: ")
+   leia (salario)
+   escreva("Digite a porcentagem de aumento: %")
+   leia (aumentop)
+   
+   novosal <- aumentop * salario
+   x <- novosal / 100
+   
+   escreva(" O aumento será de: ", x )
+   escreval("")
+   escreva(" O valor final será de: ", novosal)
+
+fimalgoritmo

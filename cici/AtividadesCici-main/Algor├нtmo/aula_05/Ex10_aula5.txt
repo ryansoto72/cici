@@ -1,0 +1,21 @@
+algoritmo "calc_raiz"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+     num, quadrado, raiz: real
+
+inicio
+
+
+    Escreva("Digite um número positivo e maior que zero: ")
+    Leia(num)
+
+    quadrado <- num ^ 2
+    raiz <- RaizQ(num)
+
+    Escreva("O número digitado ao quadrado é: ", quadrado)
+    escreval("")
+    Escreva("A raiz quadrada do número digitado é: ", raiz)
+fimalgoritmo

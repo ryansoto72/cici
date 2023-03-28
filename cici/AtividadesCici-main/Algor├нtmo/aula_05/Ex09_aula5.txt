@@ -1,0 +1,27 @@
+algoritmo "calc_hora_tra"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   hora_trab, sal_min, valor_trab, sal_bruto, imposto, sal_liq:real
+inicio
+      escreva("Digite o numero de horas trabalhadas: ")
+      leia (hora_trab)
+
+      escreva ("Digite o valor do salário mínimo: ")
+      leia(sal_min)
+//a
+   valor_trab <- sal_min/2
+//b
+   sal_bruto <- hora_trab * valor_trab
+//c
+   imposto <- sal_bruto * 0.03
+//d
+   sal_liq <- sal_bruto - imposto
+
+
+   escreva (" salário a receber: ", sal_liq)
+   
+
+fimalgoritmo

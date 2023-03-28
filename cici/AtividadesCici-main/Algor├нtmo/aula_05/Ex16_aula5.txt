@@ -1,0 +1,23 @@
+algoritmo "metro dividito 18"
+// Função :
+// Autor :    omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   x,y, tot, mq:real
+   
+inicio
+// Seção de Comandos 
+
+   Leia (x)
+   Leia (y)
+   
+   mq <- x * y
+   tot <- 18 * mq
+
+   
+   Escreva("area a ser iluminada:", mq, "m²")
+   Escreval("")
+   Escreva("potência de iluminação:", tot, "W")
+   
+fimalgoritmo

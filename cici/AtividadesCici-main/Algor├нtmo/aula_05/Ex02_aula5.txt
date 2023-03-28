@@ -1,0 +1,20 @@
+algoritmo "media_tempo_download"
+// Função :
+// Autor :     omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   size1, temp1, bts:real
+   
+inicio
+// Seção de Comandos
+   escreva("Digite o tomanho em bits do arquivo: ")
+   leia (size1)
+   escreva("Digite a velocidade da sua internet em bits por segundo: ")
+   leia (bts)
+   
+   temp1 <- size1 / bts
+   
+   escreva("vai demorar: ", temp1, " segundo(s).")
+
+fimalgoritmo

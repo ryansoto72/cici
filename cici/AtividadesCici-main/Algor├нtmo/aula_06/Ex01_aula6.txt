@@ -1,0 +1,33 @@
+algoritmo "se aprova senao morre"
+// Função :
+// Autor :    omar
+// Data : 02/03/2023
+// Seção de Declarações 
+var
+   m1, m2, med:real
+   
+inicio
+// Seção de Comandos 
+
+   Leia (m1)
+   Leia (m2)
+   
+   med <- (m1 * m2)/2
+//a
+   se (med >= 5) entao
+     escreva ("foi aprovado")
+   senao
+//b
+   se (med > 3) e (med < 5) entao
+     escreva ("ta de exame")
+   senao
+//c
+   se (med < 3) entao
+     escreava ("reprovado")
+    
+   fimse
+   fimse
+   fimse
+   
+   
+fimalgoritmo

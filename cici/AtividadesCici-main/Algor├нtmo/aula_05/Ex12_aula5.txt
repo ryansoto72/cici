@@ -1,0 +1,20 @@
+algoritmo "Ler 3 notas de aluno e calc media com notas ponderadas"
+// Função :     calcular kk
+// Autor :    omar
+// Data : 03/03/2023
+// Seção de Declarações
+var
+n1, n2, n3, media:real
+inicio
+// Seção de Comandos
+
+   leia (n1)
+   leia (n2)
+   leia (n3)
+
+   media <- (n1*2+n2*3+n3*5)/(2+3+5)
+
+   escreva("media do aluno sera: ", media)
+
+
+fimalgoritmo
