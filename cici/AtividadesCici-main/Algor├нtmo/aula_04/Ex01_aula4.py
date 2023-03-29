@@ -6,3 +6,4 @@ elif num1 > 10 or num2 > 10:
     print('Numero dve ser menor que 10')
 else: 
     print(f'A media do aluno sera: {(num1+num2)/2}')
+    
